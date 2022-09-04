@@ -7,4 +7,15 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  public temTarefas = 'Tem tarefas';
+
+
+  
+  getSemTarefas = () => {
+    return 'Não tem tarefas';
+  }
+
+  constructor(){
+
+  }
 }
