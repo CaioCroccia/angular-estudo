@@ -8,7 +8,7 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   public temTarefas = 'Tem tarefas';
-  CountdonwDate = new Date("01-09-2022").getTime();
+  CountdonwDate = new Date("01-01-2023").getTime();
 
   
 
