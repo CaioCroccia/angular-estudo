@@ -16,6 +16,17 @@ export class AppComponent  {
     return 'Não tem tarefas';
   }
 
+  starTimer(durantion, display){
+    
+    var timer = durantion, minutes, second
+
+    setInterval(() => {
+      minutes = parseInt( timer / 60, 10)
+    }, 1000);
+  }
+
+
+
   constructor(){
 
   }
